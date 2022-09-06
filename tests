@@ -1,0 +1,36 @@
+Cazuri de testare:
+    -- imagine normala: 1 (adelin.lasccu)
+    -- imagine foarte blurata: 0 (ana.adam)
+    -- imagine cu constrast scazut: 1 (andrei.jucan)
+    -- imagine cu blitz foarte puternic: 0 (diana.trif)
+    -- imagine cu luminozitate scazuta: 1 (bogdan.dragos)
+    -- imagine cu contrast inalt: 1 (gabriel.mares)
+    -- imagine rotita (clockwise): 1 (robert.beze)
+    -- alte teste:
+        -- georgiana.marunt: 1
+        -- mihai.botescu: 1
+        -- output (test): 1
+    -- IMG_5036: 1
+    -- IMG_5047: 0
+    -- IMG_5046: 1
+    -- IMG_5044: 0
+    -- IMG_5045: 1
+    -- IMG_5041: 0
+    -- IMG_5040: 1
+    -- IMG_5042: 0
+    -- IMG_5043: 0
+    -- IMG_5048: 1
+    -- IMG_5049: 1
+    -- IMG_5039: 1
+    -- IMG_5038: 1
+Nota: pentru cazurile 5048, 5049 si 5039, avem FAIL deoarece a aparut o dunga pe imagine.
+Din cauza dungii, recunoaste si alte raspunsuri ca fiind marcate si de aceea esueaza.
+----------------------------------------------------------------------------------------
+Din 23 de cazuri posibile, aplicatia functioneaza corespunzator pe 16 din acestea, adica 70%
+----------------------------------------------------------------------------------------
+KPI's (ca si directii viitoare de implementare/realizare):
+----------------------------------------------------------------------------------------
+1/ Incercarea scaderii luminozitatii in momentul folosirii unui blitz foarte puternic
+2/ Incercarea procesarii unei imagini blurate (eventual, incercarea operatiei de unblur)
+3/ Incercarea eliminarii noise-ului din imagine acolo unde este cazul (Detectie + Corectie)
+
